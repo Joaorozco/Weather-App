@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+.titulo1{
+    font-size: 70px;
+    color: rgba(0, 0, 0, 0.603);
+    font-weight: bold;
+    text-align: center;
+}
+
+#container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px 15px;
+    background: rgb(76,122,235);
+    background: radial-gradient(circle, rgba(76,122,235,1) 0%, rgba(149,148,233,1) 100%);
+    border-radius: 5px;
+    box-shadow: 8px 8px 16px #08080891;
+}
+
+.form-banner{
+    width: 50%;
+    height: 100px;
+    margin-left: 35%;
+    margin-top: 20px;
+    display: block;
+}
+
+#buscar-city{
+    -webkit-appearance: none;
+    font-size: 2rem;
+    height: 40px;
+    padding: 5px 5px 10px;
+    border-bottom: #000 solid 1px;
+    border-radius: 5px;
+}
+
+#btn-search{
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 15px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(231, 81, 81);
+    display: block;
+}
+
+#buscar-city{
+    border: none;
+    outline: none;
+    color: inherit;
+}
+
+.city{
+    width: 300px;
+    display: block;
+    margin-left: 35%;
+    margin-top: 15px;
+    border-radius: 20px;
+    background: #e4e4e4;
+    box-shadow: 8px 8px 16px #080808;
+}
+
+.city-name{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.city-temp{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.city-humidity{
+    font-size: 30px;
+    font-weight: bold;
+}
